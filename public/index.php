@@ -15,3 +15,15 @@ $mahasiswa = $repo->all();
 <h2>Data Mahasiswa</h2>
 
 <a class="btn" href="create.php">+ Tambah Mahasiswa</a>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Prodi</th>
+        <th>Angkatan</th>
+        <th>Status</th>
+        <th>Aksi</th>
+    </tr>
+
