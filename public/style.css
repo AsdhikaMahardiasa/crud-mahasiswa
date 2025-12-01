@@ -5,3 +5,8 @@ table { width: 100%; border-collapse: collapse; margin-top: 15px; }
 table, th, td { border: 1px solid #ccc; }
 th { background: #3b7ddd; color: white; padding: 10px; }
 td { padding: 8px; }
+
+a.btn { padding: 8px 12px; background:#3b7ddd; color:white; text-decoration:none; border-radius:5px; }
+a.btn-danger { background:#d9534f; }
+a.btn-warning { background:#f0ad4e; }
+button { background:#3b7ddd; color:white; border:0; padding:10px 15px; cursor:pointer; border-radius:5px; }
