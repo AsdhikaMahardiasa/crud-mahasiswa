@@ -7,3 +7,6 @@ $pdo = $db->connect();
 $repo = new MahasiswaRepository($pdo);
 
 $mahasiswa = $repo->all();
+?>
+
+<link rel="stylesheet" href="style.css">
