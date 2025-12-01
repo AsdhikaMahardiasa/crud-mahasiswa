@@ -36,4 +36,10 @@ class MahasiswaRepository {
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute($data);
     }
+
+     // DELETE
+    public function delete($id) {
+        $stmt = $this->pdo->prepare("DELETE FROM mahasiswa WHERE id=?");
+        return $stmt->execute([$id]);
+    }
 }
