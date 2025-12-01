@@ -3,7 +3,7 @@ class Database {
     private $host = "localhost";
     private $db   = "crud_mahasiswa";
     private $user = "root";
-    private $pass = "dika910700";   // <-- isi password MySQL kamu di sini
+    private $pass = "dika910700";   
 
     public $pdo;
 
