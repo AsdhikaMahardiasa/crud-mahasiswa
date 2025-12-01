@@ -11,4 +11,7 @@ $mahasiswa = $repo->all();
 
 <link rel="stylesheet" href="style.css">
 
+<div class="container">
+<h2>Data Mahasiswa</h2>
 
+<a class="btn" href="create.php">+ Tambah Mahasiswa</a>
