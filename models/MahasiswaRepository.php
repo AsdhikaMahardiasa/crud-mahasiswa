@@ -14,7 +14,7 @@ class MahasiswaRepository {
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute($data);
     }
-    
+
      // READ ALL
     public function all() {
         $stmt = $this->pdo->query("SELECT * FROM mahasiswa ORDER BY id DESC");
@@ -28,4 +28,12 @@ class MahasiswaRepository {
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    // UPDATE
+    public function update($data) {
+        $sql = "UPDATE mahasiswa SET 
+                nama=:nama, nim=:nim, prodi=:prodi, angkatan=:angkatan, status=:status
+                WHERE id=:id";
+        $stmt = $this->pdo->prepare($sql);
+        return $stmt->execute($data);
+    }
 }
