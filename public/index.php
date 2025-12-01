@@ -27,3 +27,20 @@ $mahasiswa = $repo->all();
         <th>Aksi</th>
     </tr>
 
+<?php foreach ($mahasiswa as $m): ?>
+    <tr>
+        <td><?= $m['id'] ?></td>
+        <td><?= $m['nama'] ?></td>
+        <td><?= $m['nim'] ?></td>
+        <td><?= $m['prodi'] ?></td>
+        <td><?= $m['angkatan'] ?></td>
+        <td><?= $m['status'] ?></td>
+        <td>
+            <a class="btn-warning btn" href="edit.php?id=<?= $m['id'] ?>">Edit</a>
+            <a class="btn-danger btn" href="delete.php?id=<?= $m['id'] ?>"
+               onclick="return confirm('Hapus data?')">Delete</a>
+        </td>
+    </tr>
+    <?php endforeach ?>
+</table>
+</div>
