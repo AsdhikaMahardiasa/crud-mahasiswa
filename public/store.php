@@ -15,3 +15,6 @@ $data = [
 ];
 
 $repo->create($data);
+
+header("Location: index.php");
+exit;
