@@ -10,3 +10,6 @@ $data = $repo->find($_GET['id']);
 ?>
 
 <link rel="stylesheet" href="style.css">
+
+<div class="container">
+<h2>Edit Mahasiswa</h2>
