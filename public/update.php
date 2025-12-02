@@ -14,3 +14,5 @@ $data = [
     "angkatan" => $_POST["angkatan"],
     "status" => $_POST["status"]
 ];
+
+$repo->update($data);
