@@ -6,3 +6,7 @@ $db = new Database();
 
 $pdo = $db->connect();
 $repo = new MahasiswaRepository($pdo);
+
+$repo->delete($_GET['id']);
+header("Location: index.php");
+exit;
