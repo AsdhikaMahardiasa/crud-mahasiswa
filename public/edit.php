@@ -8,3 +8,5 @@ $repo = new MahasiswaRepository($pdo);
 
 $data = $repo->find($_GET['id']);
 ?>
+
+<link rel="stylesheet" href="style.css">
