@@ -16,3 +16,6 @@ $data = [
 ];
 
 $repo->update($data);
+
+header("Location: index.php");
+exit;
