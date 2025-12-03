@@ -2,6 +2,7 @@
 Aplikasi CRUD Mahasiswa menggunakan PHP, MySQL, PDO
 
 1.Deskripsi Aplikasi
+
         Aplikasi CRUD Mahasiswa menyediakan fitur:
         - Menambah data mahasiswa
         - Melihat daftar mahasiswa
@@ -26,6 +27,7 @@ Aplikasi CRUD Mahasiswa menggunakan PHP, MySQL, PDO
         - Delete: Menghapus data berdasarkan ID dengan konfirmasi
 
 2.Spesifikasi Teknis  
+
     Bahasa dan Tools
         - PHP: 8.4.13 
         - Database: MySQL 
@@ -34,23 +36,23 @@ Aplikasi CRUD Mahasiswa menggunakan PHP, MySQL, PDO
 
         crud-mahasiswa
         
-        config
-            Database.php
-        
-        models
-        Mahasiswa.php
-        MahasiswaRepository.php
-        
-        public/
-        index.php
-        create.php
-        store.php
-        edit.php
-        update.php
-        delete.php
-        style.css
-        
-        schema.sql
+            config
+                Database.php
+            
+            models
+                Mahasiswa.php
+                MahasiswaRepository.php
+            
+            public/
+                index.php
+                create.php
+                store.php
+                edit.php
+                update.php
+                delete.php
+                style.css
+            
+            schema.sql
 
     Penjelasan Class Utama
 
@@ -70,6 +72,7 @@ Aplikasi CRUD Mahasiswa menggunakan PHP, MySQL, PDO
             - delete(id)  
 
 3.Instruksi Menjalankan Aplikasi
+
     Import Database
         Gunakan file:
         schema.sql
@@ -106,6 +109,7 @@ Aplikasi CRUD Mahasiswa menggunakan PHP, MySQL, PDO
         http://localhost/crud-mahasiswa/public
 
 4.Contoh Skenario Uji Singkat
+
     Tambah 1 Data
         - Buka halaman Tambah  
         - Isi form  
